@@ -22,10 +22,12 @@ InsightBank has seen customer churn rise and wants answers to four questions:
 - High-value customers churn more than low-value customers (24.5% vs 14.0%)  the bank is disproportionately losing its most profitable relationships
 
 Full write-up with tables: [ANALYSIS.md](ANALYSIS.md)
+Built in **Power BI**. See `DASHBOARD_SPEC.md` for the full build spec, DAX measures, and calculated fields.
 
-Dashboard
-
-Built in **Power BI**. See `docs/DASHBOARD_SPEC.md` for the full build spec, DAX measures, and calculated fields.
+![Executive Overview](screenshot_overview.png)
+![Churn Drivers](screenshot_drivers.png)
+![Customer Value & Segments](screenshot_segments.png)
+![Recommendations](screenshot_recommendations.png)
 
 Pages:
 1. Executive Overview — top-line KPIs and where churn concentrates
@@ -45,10 +47,9 @@ Pages:
 plus an `Exited` (churn) flag. Fields engineered for the dashboard: `AgeGroup`,
 `CreditBand`, `TenureGroup`, `ActiveStatus`, `ChurnStatus`, `ProductRisk`, `ValueTier`.
 
- How to Reproduce
+How to Reproduce
 
 1. Clone this repo
-2. Open `InsightBank_Churn_Dashboard.pbix` in Power BI Desktop, or import `data/Bank_Churn_enriched.csv` fresh
-3. Follow `docs/DASHBOARD_SPEC.md` to see how each page and measure was built
-4. Explore! Slice by geography, age group, and product count to see the patterns described in `docs/ANALYSIS.md`
-
+2. Open `InsightBank_Churn_Dashboard.pbix` in Power BI Desktop, or import `Bank_Churn_enriched.csv` fresh
+3. Follow `DASHBOARD_SPEC.md` to see how each page and measure was built
+4. Explore! Slice by geography, age group, and product count to see the patterns described in `ANALYSIS.md`
