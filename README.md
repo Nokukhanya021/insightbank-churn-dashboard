@@ -21,7 +21,7 @@ InsightBank has seen customer churn rise and wants answers to four questions:
 - Inactive members churn nearly 2x more** than active members (27% vs 14%)
 - High-value customers churn more than low-value customers (24.5% vs 14.0%)  the bank is disproportionately losing its most profitable relationships
 
-Full write-up with tables: [`docs/ANALYSIS.md`](docs/ANALYSIS.md)
+Full write-up with tables: [ANALYSIS.md](ANALYSIS.md)
 
 Dashboard
 
